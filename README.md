@@ -1,4 +1,4 @@
-# Reaction Challenge Pro
+# Pro Reaction Challenge
 
 ## Capstone Proposal — CIS 486
 
