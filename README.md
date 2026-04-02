@@ -45,5 +45,5 @@ A full-stack upgrade of my existing Reaction Challenge mini-app. I will take the
 
 - **Repo:** [486-capstone-project](https://github.com/andrewmcelvey2/486-capstone-project)
 - **Collaborator:** [@barrycumbie](https://gist.github.com/barrycumbie)
-- **GCP SSH:** Configured with `student-key` - TBD
+- **GCP SSH:** Configured with `student-key` - TBD (Setting up a new, clean VM)
 - **Live App:** [machine.barrycumbie.com](https://machine.barrycumbie.com)
