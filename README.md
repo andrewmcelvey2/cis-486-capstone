@@ -28,7 +28,7 @@ A full-stack upgrade of my existing Reaction Challenge mini-app. I will take the
 | Framework | Express 5 |
 | Database | MongoDB Atlas + Mongoose |
 | Auth | express-session + bcrypt |
-| Frontend | HTML / CSS / JS |
+| Frontend | HTML / CSS / JS / Bootstrap 5 |
 | Deployment | GCP, Nginx, PM2 |
 | CI/CD | GitHub Actions |
 
