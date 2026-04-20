@@ -1,0 +1,33 @@
+{
+  "name": "cis-486-capstone",
+  "version": "1.0.0",
+  "description": "A full-stack upgrade of my existing Reaction Challenge mini-app. I will take the current working app and refactor it into a clean, modern architecture with authentication, Mongoose, a polished UI, leaderboard search and filtering, and proper GCP deployment — all fully documented.",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmcelvey2/cis-486-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/andrewmcelvey2/cis-486-capstone/issues"
+  },
+  "homepage": "https://github.com/andrewmcelvey2/cis-486-capstone#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
