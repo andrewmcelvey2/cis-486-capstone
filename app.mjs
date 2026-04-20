@@ -5,6 +5,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import scoreRoutes from './routes/scoreRoutes.mjs';
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
@@ -13,6 +14,9 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(join(__dirname, 'public')));
 app.use(express.json());
+
+// Routes
+app.use('/api/scores', scoreRoutes);
 
 // Connect to MongoDB via Mongoose
 async function run() {
@@ -27,7 +31,7 @@ async function run() {
 
 // serve the homepage
 app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, 'public', 'index.html'));
+  res.sendFile(join(__dirname, 'public/html', 'index.html'));
 });
 
 // API Health
