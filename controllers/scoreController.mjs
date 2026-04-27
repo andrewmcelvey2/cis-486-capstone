@@ -1,5 +1,5 @@
 // controllers/scoresController.mjs
-import score from '../models/score.mjs';
+import Score from '../models/score.mjs';
 
 // CREATE
 export const createScore = async (req, res) => {

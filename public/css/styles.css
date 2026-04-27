@@ -1,0 +1,46 @@
+/* Game Area */
+#game-area {
+  height: 300px;
+  background-color: #f8f9fa;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Target Circle */
+.target {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Game Over Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Game Over Modal Box */
+.modal-box {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 340px;
+  border: 1px solid #dee2e6;
+}
