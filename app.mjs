@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import scoreRoutes from './routes/scoreRoutes.mjs';
+import userRoutes from './routes/userRoutes.mjs';
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
@@ -17,6 +18,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/scores', scoreRoutes);
+app.use('/api/users', userRoutes);
 
 // Connect to MongoDB via Mongoose
 async function run() {
